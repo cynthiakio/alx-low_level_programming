@@ -1,22 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - prints single numbers
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int c = 0;
+	int a;
 
-	while (c < 10)
+	for (a = 0; a < 100; a++)
 	{
-		putchar(48 + c);
-		if (c != 9)
+		putchar(a + '0');
+		if (a < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		c++;
 	}
+	putchar('\n');
+	return (0);
 }
