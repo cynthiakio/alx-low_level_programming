@@ -2,6 +2,8 @@
 
 /**
  * print_alphabet - print alpha 10x
+ *
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
